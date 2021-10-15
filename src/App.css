@@ -6,25 +6,30 @@
 
 
 .home {
-  height: 100vh;
+  height: 95vh;
   margin-top: 50px;
 }
 
 .about {
-  height: 100vh;
-  background-color: #de1717;
+  height: 95vh;
+  background-color: #242424;
 }
 
 .shows {
-  height: 100vh;
+  height: 95vh;
 }
 
 .contact {
-  height: 100vh;
-  background-color: #de1717;
+  height: 95vh;
+  background-color: #242424;
 }
 
 .logo {
   width: 50px;
 }
 
+img.react-reveal {
+  margin-top: 70px;
+  height: 80vh;
+  border-radius: 1rem;
+}

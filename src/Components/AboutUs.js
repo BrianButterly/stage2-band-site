@@ -1,10 +1,10 @@
 import React from "react";
-import Fade from 'react-reveal/Fade'
+import Fade from "react-reveal/Fade";
 
 const AboutUs = () => (
   <div className="about" id="about">
     <Fade bottom>
-    <h1>About Us</h1>
+      <img src="img3.jpeg" alt="logo" class="fran and mary of stage 2" />
     </Fade>
   </div>
 );
