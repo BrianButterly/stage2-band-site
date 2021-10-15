@@ -4,9 +4,9 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 
 const Menu = () => (
   <div>
-    <Navbar bg="light" expand="lg" fixed="top">
+    <Navbar bg="light" expand="lg" fixed="top" >
       <Container>
-        <Navbar.Brand>Stage2</Navbar.Brand>
+      <img src="logo.png" alt="logo" class="logo"/>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

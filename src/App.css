@@ -1,3 +1,10 @@
+* {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  text-align: center;
+}
+
+
 .home {
   height: 100vh;
   margin-top: 50px;
@@ -15,5 +22,9 @@
 .contact {
   height: 100vh;
   background-color: #de1717;
+}
+
+.logo {
+  width: 50px;
 }
 
