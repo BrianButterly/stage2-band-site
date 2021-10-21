@@ -4,7 +4,6 @@
   text-align: center;
 }
 
-
 .home {
   height: 95vh;
   margin-top: 50px;
@@ -29,7 +28,7 @@
 }
 
 img.react-reveal {
-  margin-top: 70px;
+  margin-top: 60px;
   height: 80vh;
   border-radius: 1rem;
 }
