@@ -3,13 +3,11 @@ import Fade from "react-reveal/Fade";
 
 function AboutUs() {
   return (
- 
     <div className="about" id="about">
       <Fade bottom>
-        <img src="img3.jpeg" alt="logo" class="fran_mary" />
+        <img src="img3.jpeg" alt="logo" className="band" />
       </Fade>
     </div>
-    
   );
 }
 
