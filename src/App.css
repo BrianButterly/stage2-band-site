@@ -64,7 +64,7 @@ img.react-reveal {
 .arrows path {
   stroke: #df1817;
   fill: transparent;
-  stroke-width: 1px;
+  stroke-width: 2px;
   animation: arrow 2s infinite;
   -webkit-animation: arrow 2s infinite;
 }
@@ -118,4 +118,8 @@ svg.arrows {
   position: absolute;
   left: 47.5%;
   cursor: pointer;
+}
+
+.note {
+  height: 500px;
 }

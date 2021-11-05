@@ -3,29 +3,59 @@ import Fade from "react-reveal/Fade";
 import { Link } from "react-scroll";
 
 function Home() {
-  const [expanded, setExpanded] = useState(false);
+  const [setExpanded] = useState(false);
   return (
     <div class="bubbles">
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      
+      <div class="bubble">
+        <img src="note.png" alt="note" class="note"  />
+      </div>
+      <div class="bubble">
+        <img src="note.png" alt="note" />
+      </div>
+      <div class="bubble">
+        <img src="note.png" alt="note" class="note" />
+      </div>
+      <div class="bubble">
+        <img src="note.png" alt="note" />
+      </div>
+      <div class="bubble">
+        <img src="note.png" alt="note" class="note" />
+      </div>
+      <div class="bubble">
+        <img src="note.png" alt="note" />
+      </div>
+      <div class="bubble">
+        <img src="note.png" alt="note" class="note" />
+      </div>
+      <div class="bubble">
+        <img src="note.png" alt="note" />
+      </div>
+      <div class="bubble">
+        <img src="note.png" alt="note" class="note" />
+      </div>
+      <div class="bubble">
+        <img src="note.png" alt="note" />
+      </div>
+      <div class="bubble">
+        <img src="note.png" alt="note" />
+      </div>
+      <div class="bubble">
+        <img src="note.png" alt="note" />
+      </div>
+      <div class="bubble">
+        <img src="note.png" alt="note" />
+      </div>
+      <div class="bubble">
+        <img src="note.png" alt="note" />
+      </div>
+      <div class="bubble">
+        <img src="note.png" alt="note" />
+      </div>
 
       <div className="home" id="home">
-        <Fade bottom><img src="logo.png" alt="logo" class="stage2" /></Fade>
-        
+        <Fade bottom>
+          <img src="logo.png" alt="logo" class="stage2" />
+        </Fade>
         <Link
           activeClass="active"
           to="about"

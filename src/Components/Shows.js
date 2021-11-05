@@ -3,28 +3,12 @@ import React from "react";
 
 function Shows() {
   return (
-    
-      <div className="shows" id="shows">
-<div class="bubbles">
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      </div>
-        {/* <Fade bottom></Fade> */}
-      </div>
-    
+    <div className="shows" id="shows">
+      
+       
+     
+      {/* <Fade bottom></Fade> */}
+    </div>
   );
 }
 
