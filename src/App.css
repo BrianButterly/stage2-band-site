@@ -123,3 +123,12 @@ svg.arrows {
 .note {
   height: 500px;
 }
+
+
+input {
+  width: 600px;
+}
+textarea {
+  height: 10em;
+  width: 600px;
+}
