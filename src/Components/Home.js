@@ -3,11 +3,11 @@ import Fade from "react-reveal/Fade";
 import { Link } from "react-scroll";
 
 function Home() {
-  const [setExpanded] = useState(false);
+  const [expanded, setExpanded] = useState(false);
   return (
     <div class="bubbles">
       <div class="bubble">
-        <img src="note.png" alt="note" class="note"  />
+        <img src="note.png" alt="note" class="note" />
       </div>
       <div class="bubble">
         <img src="note.png" alt="note" />

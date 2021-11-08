@@ -7,7 +7,7 @@ function Menu() {
 
   return (
     <div>
-      <Navbar expanded={expanded} expand="lg" fixed="top" >
+      <Navbar expanded={expanded} expand="lg" fixed="top">
         <Container>
           <img src="logo.png" alt="logo" class="logo" />
           <Navbar.Toggle

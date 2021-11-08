@@ -1,12 +1,9 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
 
 function Contact() {
-  return (
-    <div className="contact" id="contact">
-      <Fade bottom></Fade>
-    </div>
-  );
+  return <div className="contact" id="contact">
+    
+  </div>;
 }
 
 export default Contact;

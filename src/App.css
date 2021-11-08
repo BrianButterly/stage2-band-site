@@ -16,8 +16,8 @@ nav.navbar.navbar-expand-lg.navbar-light.fixed-top {
 
 .about {
   height: 95vh;
-  background-color: #DE1A19;
-  background-image: linear-gradient(147deg, #DE1A19 0%, #c90000 74%);
+  background-color: #de1a19;
+  background-image: linear-gradient(147deg, #de1a19 0%, #c90000 74%);
 }
 
 .shows {
@@ -27,8 +27,8 @@ nav.navbar.navbar-expand-lg.navbar-light.fixed-top {
 
 .contact {
   height: 95vh;
-  background-color: #DE1A19;
-  background-image: linear-gradient(147deg, #DE1A19 0%, #c90000 74%);
+  background-color: #de1a19;
+  background-image: linear-gradient(147deg, #de1a19 0%, #c90000 74%);
 }
 
 .logo {
