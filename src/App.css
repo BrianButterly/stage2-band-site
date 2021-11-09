@@ -29,6 +29,9 @@ nav.navbar.navbar-expand-lg.navbar-light.fixed-top {
   height: 95vh;
   background-color: #de1a19;
   background-image: linear-gradient(147deg, #de1a19 0%, #c90000 74%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo {
@@ -124,7 +127,6 @@ svg.arrows {
   height: 500px;
 }
 
-
 input {
   width: 600px;
 }
@@ -132,3 +134,15 @@ textarea {
   height: 10em;
   width: 600px;
 }
+
+.form-control {
+  text-align: left;
+}
+
+.form-container {
+  width: 50%;
+  height: 55%;
+  background-color: white;
+  border-radius: 15px;
+}
+
