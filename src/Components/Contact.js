@@ -30,7 +30,7 @@ function Contact() {
               style={{ height: "100px" }}
             />
           </FloatingLabel>
-          <br/>
+          <br />
           <Button variant="danger">Submit</Button>
         </div>
       </Fade>

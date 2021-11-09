@@ -1,13 +1,12 @@
 import React from "react";
-// import Fade from "react-reveal/Fade";
+import Fade from "react-reveal/Fade";
 
 function Shows() {
   return (
     <div className="shows" id="shows">
-      
-       
-     
-      {/* <Fade bottom></Fade> */}
+      <Fade bottom>
+        <h1>Upcoming Shows</h1>
+      </Fade>
     </div>
   );
 }
