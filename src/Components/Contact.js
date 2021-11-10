@@ -17,7 +17,7 @@ function Contact() {
             <Form.Control type="email" placeholder="name@example.com" />
           </FloatingLabel>
 
-          <FloatingLabel 
+          <FloatingLabel
             controlId="floatingTextarea"
             label="Subject"
             className="mb-3"
@@ -33,7 +33,7 @@ function Contact() {
             />
           </FloatingLabel>
           <br />
-          <Button variant="danger">Submit</Button>
+          <Button variant="danger">Send</Button>
         </div>
       </Fade>
     </div>

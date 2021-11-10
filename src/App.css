@@ -23,6 +23,7 @@ nav.navbar.navbar-expand-lg.navbar-light.fixed-top {
 .shows {
   height: 95vh;
   background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  padding: 0px 200px;
 }
 
 .contact {
