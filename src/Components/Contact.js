@@ -16,13 +16,15 @@ function Contact() {
           >
             <Form.Control type="email" placeholder="name@example.com" />
           </FloatingLabel>
-          <FloatingLabel
+
+          <FloatingLabel 
             controlId="floatingTextarea"
             label="Subject"
             className="mb-3"
           >
-            <Form.Control as="textarea" placeholder="Message" />
+            <Form.Control as="textarea" placeholder="Subject" />
           </FloatingLabel>
+
           <FloatingLabel controlId="floatingTextarea2" label="Message">
             <Form.Control
               as="textarea"

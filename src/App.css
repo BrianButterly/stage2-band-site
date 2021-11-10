@@ -144,5 +144,9 @@ textarea {
   height: 55%;
   background-color: white;
   border-radius: 15px;
+  padding: 15px;
 }
 
+#floatingTextarea {
+  resize: none;
+}
