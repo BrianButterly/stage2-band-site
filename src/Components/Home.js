@@ -54,7 +54,7 @@ function Home() {
 
       <div className="home" id="home">
         <Fade bottom>
-          <img src="logo.png" alt="logo" class="stage2" />
+          <img src="logo.png" alt="logo" className="stage2" />
         </Fade>
         <Link
           activeClass="active"

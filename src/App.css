@@ -45,9 +45,9 @@ img.react-reveal.band {
   border-radius: 1rem;
 }
 
-/* .stage2 {
-  padding-top: 140px;
-} */
+.stage2 {
+  width: 58%;
+}
 
 img.react-reveal {
   margin-top: 60px;

@@ -9,7 +9,24 @@ function Menu() {
     <div>
       <Navbar expanded={expanded} expand="lg" fixed="top">
         <Container>
-          <img src="logo.png" alt="logo" class="logo" />
+          <Link
+            activeClass="active"
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={-55}
+            duration={150}
+            onClick={() =>
+              setTimeout(() => {
+                setExpanded(false);
+              }, 150)
+            }
+          >
+            <Nav.Link href="/">
+              <img src="logo.png" alt="logo" class="logo" />
+            </Nav.Link>
+          </Link>
+
           <Navbar.Toggle
             onClick={() => setExpanded(expanded ? false : "expanded")}
             aria-controls="basic-navbar-nav"
