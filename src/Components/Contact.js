@@ -1,12 +1,29 @@
-import React, { useState } from "react";
+import React from "react";
 import Fade from "react-reveal/Fade";
+import emailjs from "emailjs-com";
 import { Form, FloatingLabel, Button } from "react-bootstrap";
 
 function Contact() {
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_vv2w4xg",
+        "template_c59k4io",
+        e.target,
+        "user_yCGECHosg483IJ2p9jwwl"
+      )
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((err) => console.log(err));
+  }
+
   return (
     <div className="contact" id="contact">
       <Fade bottom>
-        <div className="form-container">
+        <form className="form-container" onSubmit={sendEmail}>
           <h1>Contact Us</h1>
           <hr />
           <FloatingLabel
@@ -14,7 +31,7 @@ function Contact() {
             label="Email address"
             className="mb-3"
           >
-            <Form.Control type="email" placeholder="name@example.com" />
+            <Form.Control name="email" type="email" placeholder="name@example.com" />
           </FloatingLabel>
 
           <FloatingLabel
@@ -22,7 +39,7 @@ function Contact() {
             label="Subject"
             className="mb-3"
           >
-            <Form.Control as="textarea" placeholder="Subject" />
+            <Form.Control name="subject" as="textarea" placeholder="Subject" />
           </FloatingLabel>
 
           <FloatingLabel controlId="floatingTextarea2" label="Message">
@@ -30,11 +47,13 @@ function Contact() {
               as="textarea"
               placeholder="Message"
               style={{ height: "100px" }}
+              name="message"
             />
           </FloatingLabel>
           <br />
-          <Button variant="danger">Send</Button>
-        </div>
+
+          <Button type="submit" variant="danger">Send</Button>
+        </form>
       </Fade>
     </div>
   );

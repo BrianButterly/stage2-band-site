@@ -142,7 +142,7 @@ textarea {
 
 .form-container {
   width: 50%;
-  height: 55%;
+  height: auto;
   background-color: white;
   border-radius: 15px;
   padding: 15px;
