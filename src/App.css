@@ -162,3 +162,8 @@ span {
   font-size: larger;
   font-weight: bold;
 }
+
+.audio_player {
+  padding-top: 20px;
+  position: absolute;
+}

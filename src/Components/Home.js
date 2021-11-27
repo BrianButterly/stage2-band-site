@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Fade from "react-reveal/Fade";
 import { Link } from "react-scroll";
+import ReactAudioPlayer from "react-audio-player";
 
 function Home() {
   const [expanded, setExpanded] = useState(false);
@@ -53,6 +54,19 @@ function Home() {
       </div>
 
       <div className="home" id="home">
+
+        <div className="audio_player" >
+
+        LISTEN TO NEW SINGLE
+        <br/>
+        <ReactAudioPlayer
+          src="/Let’s Get Back to Dancing.mp3"
+          
+          controls
+          />
+        
+        </div>
+        
         <Fade bottom>
           <img src="logo.png" alt="logo" className="stage2" />
         </Fade>
