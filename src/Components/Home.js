@@ -55,18 +55,12 @@ function Home() {
 
       <div className="home" id="home">
 
-        <div className="audio_player" >
-
-        LISTEN TO NEW SINGLE
-        <br/>
-        <ReactAudioPlayer
-          src="/Let’s Get Back to Dancing.mp3"
-          
-          controls
-          />
-        
+        <div className="audio_player">
+          LISTEN TO OUR NEW SINGLE
+          <br />
+          <ReactAudioPlayer src="/Let’s Get Back to Dancing.mp3" controls />
         </div>
-        
+
         <Fade bottom>
           <img src="logo.png" alt="logo" className="stage2" />
         </Fade>
